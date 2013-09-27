@@ -1,0 +1,11 @@
+package graphics.collision;
+
+import math.Vector4D;
+
+public interface BoundingCircle extends BoundingBox {
+	
+	public double getRadius();
+	
+	public Vector4D getCenter();
+
+}
